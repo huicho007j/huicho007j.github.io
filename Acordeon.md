@@ -39,5 +39,17 @@
 ### $ git clean
 -Borra permanentemente los archivos no seguidos, es decir los que no se han agregado con add. LLeva la bandera -f.
 
+### $ git branch
+-Lista ramas existentes en el repositorio. Si se agrega el nombre [<nombre>]
+de rama como argumento se creará una rama con ese nombre pero no se pasa a esa, para pasarse se usa checkout.
 
+### $ git merge
+-Fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente. Recibe como parámetro la rama objetivo.
 
+### $ git diff
+-Muestra lo corregido en el archivo
+
+### Conflictos de merging
+-A veces sise está trabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos  por lo que es necesario corregirlos.
+
+mas
