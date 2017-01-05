@@ -16,7 +16,10 @@
 -Registra nuestro nuevo estado y lo registra en la historia de nuestro repositorio. Por lo general se usa con la bandera -m y un pequeño texto que describa lo que hicimos.
 
 ### $ git commit [-m "descripcion"]
--guarda el nuevo estaod en el historial del repositorio
+-Guarda el nuevo estado en el historial del repositorio
 
 ### $ git log
--
+-Muestra el historial de commits que hemos hecho en nuestro proyecto. La bandera --oneline muestra cada entrada en una sola línea. También es posible ver la historia de un sólo archivo, pasando como argumento el nombre de éste.
+
+### $ git log [ --oneline <archivo>]
+-Muestra el historial completo de commits del repo o de un archivo en específico.
