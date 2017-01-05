@@ -26,3 +26,18 @@
 
 ### .gitignore
 -Este archivo nos permite ignorar archivos o directorios (como los .exe o a.out de un programa) los cuales no queramos que entren en el seguimiento del repositorio.    -nombres de archivos o carpetas separados por saltos de línea    -wildcards*
+
+### $ git checkout
+-Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio. LLeva como argumento el id del commit o parte de.
+
+### $ git revert
+-Este comando nos permite revertir un cambio ya registrado creando un nuevo commit. Lleva como argumento el id del commit a revertir.
+
+### $ git reset
+-Regresa al último estado guardado borrando permanentemente cualquier cambio en el área de pruebas que se hiciera con add. Lleva la bandera --hard
+
+### $ git clean
+-Borra permanentemente los archivos no seguidos, es decir los que no se han agregado con add. LLeva la bandera -f.
+
+
+
