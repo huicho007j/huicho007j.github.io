@@ -23,3 +23,6 @@
 
 ### $ git log [ --oneline <archivo>]
 -Muestra el historial completo de commits del repo o de un archivo en específico.
+
+### .gitignore
+-Este archivo nos permite ignorar archivos o directorios (como los .exe o a.out de un programa) los cuales no queramos que entren en el seguimiento del repositorio.    -nombres de archivos o carpetas separados por saltos de línea    -wildcards*
