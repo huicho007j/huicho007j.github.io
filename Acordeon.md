@@ -69,5 +69,6 @@ de rama como argumento se creará una rama con ese nombre pero no se pasa a esa,
 ### $ git push
 -Permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto. Recibe como argumentos el nombre del remoto y del branch al que queremos hacer push.
 
-
+### $ git clone <ruta> [<nombre local>]
+-ruta es la url del repo de github y ek nombre de la carpeta local donde se va a clonar
 
