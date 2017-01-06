@@ -49,4 +49,7 @@ de rama como argumento se creará una rama con ese nombre pero no se pasa a esa,
 ### $ git diff
 -Muestra lo corregido en el archivo
 
+### Conflictos de merging
+-A veces sise está trabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos  por lo que es necesario corregirlos.
 
+mas
