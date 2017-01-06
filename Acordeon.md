@@ -52,4 +52,22 @@ de rama como argumento se creará una rama con ese nombre pero no se pasa a esa,
 ### Conflictos de merging
 -A veces sise está trabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos  por lo que es necesario corregirlos.
 
-mas
+### Repositorio remoto
+-Es aquel que se encuentra alojado en un servidor externo a nuestro computador. Un repositorio remoto puede ser accedido por uno o varios colaboradores. El repositorio puede ser centralizado o distribuido.
+
+### $ git remote
+-Permite hacer diversas operaciones sobre repositorios remotos. -add: agrega un nuevo remoto. -remove: elimina un remoto.
+
+### $ git remote add <nombre> <url>
+### $ git remote remove <nombre>
+
+-Por lo general el nombre del repositorio remoto es: origin
+
+### $ git pull
+-Permite recibir el último estado registrado del repositorio remoto. Recibe como argumentos el nombre del remoto y del branch al que queremos hacer pull.
+
+### $ git push
+-Permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto. Recibe como argumentos el nombre del remoto y del branch al que queremos hacer push.
+
+
+
